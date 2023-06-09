@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo"><span>R</span>ado<span>M</span>usa</a>
+            <div style="--color:1" id="toggle"></div>
+            <div id="manu">
+                <ul>
+                    <li>
+                        <a style="--i:0;" href="#home" class="active">Home</a>
+                        <a style="--i:1;" href="#about">About</a>
+                        <a style="--i:2;" href="#skills">Skills</a>
+                        <a style="--i:3;" href="#project">Project</a>
+                        <a style="--i:4;" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    </header>
+    
+    <section id="home">
+        <div class="home-content" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease">
+            <h3>Hello! It's Me</h3>
+            <h1>Rado Musa</h1>
+            <h3 class="and">And I'm a <span id="text"></span></h3>
+            <p>A mind that was once stretched by a new idea never regains its original dimensions.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></i></a>
+                <a href="#"><i class='bx bxl-discord-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+            </div>
+            <a href="#"><div class="cv">Download CV</div></a>
+        </div>
+        <div class="home-image">
+            <div class="back">
+                <img class="bg" src="img/blob.svg" alt="boboco" data-aos="zoom-in" data-aos-duration="800"  data-aos-easing="ease">
+                <img src="img/icon.png" alt="programmer" data-aos="zoom-in" data-aos-duration="800">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-image" data-aos="fade-right" data-aos-duration="800">
+            <img src="img/photo.png" alt="me">
+        </div>
+            <div class="about-content" data-aos="fade-left" data-aos-duration="800">
+                <h1 class="heading">About <span>Me</span></h1>
+                <h3>Web Developer</h3>
+                <p>Hallo, nama saya Rado Musa. Saya seorang Beginner Web Developer, Software Engineering.</p>
+                <p>Saya tinggal di Gorontalo, Indonesia. Saya lahir di Gorontalo 16 Agustus 2006. Umur saya 16 tahun. Saya adalah siswa dari jurusan Rekayasa Perangkat lunak & GIM di SMKN 3 Gorontalo</p>
+                <p>Saya belum lama ini belajar Coding setelah benar-benar terinspirasi dengan dunia teknologi sejak kecil. Saya juga mempunyai hobi seperti, menonton anime, membaca novel(anime), dan juga mendengarkan musik. Musik adalah dunia dimana seseorang melampiaskan cinta, semangat, keceriaan, kedamaian, kesedihan maupun kebahagiaan.</p>
+                <!-- <a href="#"><div class="cv">Read More</div></a>  -->
+            </div>
+    </section>
+
+    <section id="skills">
+        <h1>Skills</h1>
+        <h3 data-aos="zoom-in" data-aos-duration="800">Programming <span>Language</span></h3>
+        <div class="box-container">
+            <div class="skill_icon" data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease">
+                <img src="img/html.svg" alt="" width="60"/>
+            </div>
+            <div class="skill_icon" data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease">
+                <img src="img/css.svg" alt="" width="60"/>
+            </div>
+            <div class="skill_icon" data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease">
+                <img src="img/javascript.svg" alt="" width="60"/>
+            </div>
+            <div class="skill_icon" data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease">
+                <img src="img/php.svg" alt="" class="php" style="margin-left: -8px;" width="100px"/>
+            </div>
+            <div class="skill_icon" data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease">
+                <img src="img/cpp.svg" alt="" class="cpp" width="80"/>
+            </div>
+            <div class="skill_icon" data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease">
+                <img src="img/fpc.gif" class="fpc" alt="" width="80"/>
+            </div>
+        </div>
+    </section>
+
+    <section id="project">
+        <h1 class="heading">Latest <span>Project</span></h1>
+
+        <div class="portfolio-container">
+            <div class="card" data-aos="zoom-in" data-aos-duration="800">
+                <img src="img/project.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                  <h3>Portfolio</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, laudantium! lorem ipsum amet end dolor elit sit Eligendi</p>
+                    <a href="#">View Project</a>
+                </div>
+              </div>
+              <div class="card" id="crd" data-aos="zoom-in" data-aos-duration="800">
+                <img src="img/project.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                  <h3>Portfolio</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, laudantium! lorem ipsum amet end dolor elit sit Eligendi</p>
+                    <a href="#">View Project</a>
+                </div>
+              </div>
+              <div class="card" id="crd" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease">
+                <img src="img/project.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                  <h3>Portfolio</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, laudantium! lorem ipsum amet end dolor elit sit Eligendi</p>
+                    <a href="#">View Project</a>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section id="contact">
+            <h1>Contact <span>Me</span></h1>
+            <form action="" name="form-contact">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <textarea name="message" placeholder="Messaage" rows="10" required></textarea>
+                <button id="test" type="submit">Send Message</button>
+            </form>
+    </section>
+    <footer>
+        <p class="navCop">Made with ❤ by Rado Musa</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyXY_cBd51kqcmW-kAcI4eY43Zzb5YkFYI4j1810gmDRS9glj3juioHtJvqbVyWM1C1/exec'
+        const test = document.getElementById("test")
+        const form = document.forms['form-contact']
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+
+            test.innerHTML = "Sending";
+
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                form.reset();
+                console.log('Success!', response)
+                test.innerHTML = "Success";
+
+                setTimeout( () => {
+                    test.innerHTML = "Send Message";
+                },3000)
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
