@@ -151,7 +151,9 @@ header {
     align-items: center;
     z-index: 99999999;
 }
-
+#crd {
+    display: hidden;
+}
 .logo {
     font-size: 25px;
     color: #fff;
